@@ -1,0 +1,18 @@
+.content-vidio{
+    width: 100%;
+    height: auto;
+    padding-top: 1rem;
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+}
+.content-vidio video{
+    width:100%;
+    height: auto;
+}
+
+.slideshow-container.fade{
+    padding-top: 3rem;
+    border: 1px;
+    border-radius: 50rem;
+}

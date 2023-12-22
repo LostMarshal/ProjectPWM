@@ -6,7 +6,7 @@
 ///   //////     ///||||||\\\      \\\  ///
 ///    /////    ///        \\\      \\\///
 
-*/      
+*/
 *{
     margin: 0;
     padding: 0;
@@ -60,7 +60,7 @@ body {
     position: relative;
     color: #ececec;
   }
-  
+
   .nav-link::after {
     content: '';
     position: absolute;
@@ -73,7 +73,7 @@ body {
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
   }
-  
+
   .nav-link:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
@@ -250,4 +250,25 @@ body {
     border-width: 3rem;
     background-color: rgba(255, 255, 255, 0.50);
     transition: 0.25s ease;
+}
+
+/* laptop */
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+/* mobile */
+@media (max-width: 450px) {
+  html {
+    font-size: 60%;
+  }
 }
