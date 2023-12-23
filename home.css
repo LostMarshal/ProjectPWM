@@ -18,6 +18,16 @@ body {
     background-color: #CABA9C;
 }
 
+.navbar{
+  background-color: #8A6240;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
 .nav-container {
     display: flex;
     height: 10vh;
@@ -33,12 +43,9 @@ body {
     width: auto;
 }
 
-.navbar {
-    background-color: #8A6240;
-    padding: 10px;
-}
 
-.navbar ul {
+
+/* .navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -47,18 +54,24 @@ body {
 
 .navbar li {
     margin-right: 10px;
-}
+} */
 
 .navbar a {
     text-decoration: none;
     color: #ececec;
     padding: 5px;
+    font-size: 1.2rem;
+    margin: 0 0.5rem;
 }
 
 .nav-link {
     display: inline-block;
     position: relative;
     color: #ececec;
+    margin-right: 10px;
+    margin: 0;
+    padding: 0;
+    /* display: flex; */
   }
 
   .nav-link::after {
@@ -93,6 +106,11 @@ body {
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
+/*hamburger menu  */
+#hamburger-menu {
+  display: none;
+}
+
 /* Carousel */
 
 /* Slideshow container */
@@ -101,6 +119,7 @@ body {
   max-height: 90%;
   position: relative;
   margin: auto;
+  padding-top: 3rem;
 }
 
 /* Make the images invisible by default */
@@ -264,7 +283,47 @@ body {
   html {
     font-size: 62.5%;
   }
+
+  .slideshow-container{
+    padding-top: 7rem;
+  }
+
+  #hamburger-menu {
+    display: inline-block;
+  }
+
+  .nav-menu {
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    /* text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5); */
+    background-color: rgba(255, 255, 255, 0.459);
+    width: 30rem;
+    height: 100vh;
+    transition: 0.5s;
+  }
+
+  .nav-menu.active{
+    right: 0;
+  }
+
+  .nav-menu a{
+    color:#15171b;
+    display: block; /*biar tulisan turun kebawah*/
+    margin: 1.5rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+  }
+
+  .nav-menu a::after{
+    transform-origin: 0 0;
+  }
+
+  .nav-menu a:hover::after{
+    transform: scale(0.2);
+  }
 }
+
 
 /* mobile */
 @media (max-width: 450px) {

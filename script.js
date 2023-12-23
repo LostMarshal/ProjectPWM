@@ -1,3 +1,29 @@
+// NAV BAR MENU //
+
+// Toggle class active mengambil dari style.css dan html
+const navbarNav = document.querySelector(".nav-menu");
+// saat hamburger menu di click
+document.querySelector("#hamburger-menu").onclick = () => {
+  navbarNav.classList.toggle("active");
+};
+
+//untuk menghilangkan nav side bar di luar tombol menu (klik dimana saja)
+const hamburgerMenu = document.querySelector("#hamburger-menu");
+
+document.addEventListener("click", function (event) {
+  if (!hamburgerMenu.contains(event.target) &&!navbarNav.contains(event.target))
+  {
+    navbarNav.classList.remove("active");
+  }
+});
+const menuButtonElement = document.getElementById("hamburger-menu");
+menuButtonElement.addEventListener("click", function (event) {
+  event.preventDefault();
+});
+
+// NAV BAR MENU END //
+
+
 var slidePosition = 1;
 SlideShow(slidePosition);
 
@@ -25,4 +51,4 @@ function SlideShow(n) {
   }
   slides[slidePosition-1].style.display = "block";
   circles[slidePosition-1].className += " enable";
-} 
+}
