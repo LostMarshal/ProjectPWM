@@ -1,0 +1,17 @@
+
+.content img{
+    margin-top: 10vh;
+    border-radius: 25px;
+}
+.content-text {
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-bottom: 6%;
+    margin-right: 5%;
+    font-size: 1.25em;
+    color: #4D2D18;
+    font-weight: 500;
+}
+.content-text p{
+    text-align: justify;
+}
