@@ -47,6 +47,133 @@
     margin-left: 5%;
 }
 
+.step-3{
+    height: 40vh;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.step-3 img{
+    height: 40vh;
+    width: fit-content;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #4D2D18;
+    border-radius: 30px;
+    margin-right: 5%;
+}
+
+.step-4{
+    height: 40vh;
+    width: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.step-4 img{
+    height: 40vh;
+    width: fit-content;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #4D2D18;
+    border-radius: 30px;
+    margin-left: 5%;
+}
+.step-5{
+    height: 40vh;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.step-5 img{
+    height: 40vh;
+    width: fit-content;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #4D2D18;
+    border-radius: 30px;
+    margin-right: 5%;
+}
+.step-6{
+    height: 40vh;
+    width: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.step-6 img{
+    height: 40vh;
+    width: fit-content;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #4D2D18;
+    border-radius: 30px;
+    margin-left: 5%;
+}
+.step-7{
+    height: 40vh;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.step-7 img{
+    height: 40vh;
+    width: fit-content;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #4D2D18;
+    border-radius: 30px;
+    margin-right: 5%;
+}
+.step-8{
+    height: 40vh;
+    width: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.step-8 img{
+    height: 40vh;
+    width: fit-content;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #4D2D18;
+    border-radius: 30px;
+    margin-left: 5%;
+}
+.step-9{
+    height: 40vh;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.step-9 img{
+    height: 40vh;
+    width: fit-content;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #4D2D18;
+    border-radius: 30px;
+    margin-right: 5%;
+}
+
 .step-text{
     background-color: #8A6240;
     border-style: solid;
