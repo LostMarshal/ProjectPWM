@@ -8,11 +8,26 @@
     overflow: hidden;
     padding-top: 7rem;
 }
-.content-vidio video{
-    width:100%;
-    height: auto;
+
+.vid{
+ width: 100%;
+ height: auto;
+ display: flex;
+ justify-content: center;
+}
+
+.content-vidio .videos{
+    width: 100%;
+    height: 35rem;
     border: 1px;
     border-radius: 20px;
+
+}
+
+@media (max-width: 768px) {
+    .content-vidio .videos{
+        height: 35vh;
+    }
 }
 
 .slideshow-container.fade{
