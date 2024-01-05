@@ -1,17 +1,20 @@
-
-.content img{
-    margin-top: 10vh;
-    border-radius: 25px;
+.content img {
+  margin-top: 10vh;
+  border-radius: 25px;
 }
 .content-text {
-    margin-top: 3%;
-    margin-left: 5%;
-    margin-bottom: 6%;
-    margin-right: 5%;
-    font-size: 1.25em;
-    color: #4D2D18;
-    font-weight: 500;
+  margin-top: 3%;
+  margin-left: 5%;
+  margin-bottom: 6%;
+  margin-right: 5%;
+  font-size: 1.25em;
+  color: #4d2d18;
+  font-weight: 500;
 }
-.content-text p{
-    text-align: justify;
+.content-text p {
+  text-align: justify;
+}
+
+.content {
+  padding-top: 4rem;
 }
