@@ -28,6 +28,9 @@
     .content-vidio .videos{
         height: 35vh;
     }
+    .content-vidio {
+        padding-top: 10rem;
+    }
 }
 
 .slideshow-container.fade{

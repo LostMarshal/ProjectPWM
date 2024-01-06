@@ -88,6 +88,9 @@
     .container-judul{
         top: -5rem;
     }
+    .content-title{
+        padding-top: 10rem;
+    }
     .deskripsi-motif p{
         font-size: 1.3rem;
     }
